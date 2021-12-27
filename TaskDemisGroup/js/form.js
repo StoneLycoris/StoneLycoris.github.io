@@ -53,7 +53,7 @@ $(document).ready(function () {
                 },
             },
             submitHandler: function () {
-                sendForm('request', '/src/components/form.php');
+                sendForm('request', '/components/form.php');
                 return false;
             }
         });
@@ -66,7 +66,7 @@ $(document).ready(function () {
             }).done(function(){
                 $(".contacts__form-input").val("");
             }).done(function() {
-                $('.data__body').load('/src/components/getformdata.php');
+                $('.data__body').load('/components/getformdata.php');
             });
         };
     });
