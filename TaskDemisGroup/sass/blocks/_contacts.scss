@@ -1,0 +1,11 @@
+.contacts {
+    min-height: 600px;
+    width: 900px;
+    margin: 0 auto;
+    &__title {
+        text-align: center;
+        font-family: 'Roboto';
+        font-weight: 700;
+        color: #000;
+    }
+}

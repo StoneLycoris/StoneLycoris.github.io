@@ -1,0 +1,17 @@
+.links {
+    padding-bottom: 12px;
+    &__link {
+        margin-top: 20px;
+        display: block;
+        text-align: center;
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 18px;
+        color: $main-color;
+        &:hover {
+            text-decoration: none;
+            color: $main-color;
+            transition: 0.5s all;
+        }
+    }   
+}

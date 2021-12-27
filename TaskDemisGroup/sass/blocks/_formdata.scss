@@ -1,0 +1,44 @@
+.data {
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 180px;
+    min-height: 400px;
+    &__table {
+        text-align: center;
+        border-collapse: collapse;
+        width: inherit;
+        margin: 0 auto;
+        font-family: 'Roboto';
+        font-weight: 400;
+        background-color: #fff;
+    }
+    &__head {
+        background-color: #4c5e68;
+        border-radius: 5px;
+        color: #fff;
+    }
+    &__title {
+        text-align: center;
+        padding: 10px 20px;
+        font-weight: 700;
+        background-color: #3d4b53;
+        color: #fff;
+        text-transform: uppercase;
+        &-big {
+            padding: 10px;
+            border-radius: 2px;
+        }
+    }
+    &__part {
+        border: solid 2px $second-color;
+        text-transform: uppercase;
+    }
+    &__inner {
+        &__piece {
+            border: solid 2px $main-color;
+            border-radius: 5px;
+            padding: 8px;
+            font-size: 18px;
+        }
+    }
+}

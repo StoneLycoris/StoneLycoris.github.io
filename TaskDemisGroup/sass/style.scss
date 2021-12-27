@@ -1,0 +1,21 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'base/variables';
+@import 'libs/font';
+@import 'blocks/contacts';
+@import 'blocks/form';
+@import 'blocks/formdata';
+@import 'blocks/news';
+@import 'blocks/links';
+@import 'base/media';
+
+body {
+    background-color: #eeeee7;
+    font-family: 'Roboto';
+}
+.container {
+    max-width: 1172px;
+    margin: 0 auto;
+    &-relative {
+        position: relative;
+    }
+}
